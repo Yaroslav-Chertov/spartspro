@@ -1,0 +1,52 @@
+.equipment__title {
+    font-family: var(--second-family);
+    text-transform: uppercase;
+    padding-top: 80px;
+}
+
+.equipment__cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.equipment__card {
+    display: flex;
+    border: 1px solid #e0e6ed;
+    border-radius: 8px;
+}
+
+.equipment__info {
+    padding-left: 30px;
+}
+
+.equipment__subtitle {
+    font-family: var(--second-family);
+    font-size: 18px;
+    line-height: 120%;
+}
+
+.equipment__status-wrapper {
+    display: flex;
+    align-items: center;
+    column-gap: 6px;
+}
+
+.equipment__status {
+    font-family: var(--font-family);
+    font-size: 16px;
+    line-height: 145%;
+}
+
+.equipment__btn {
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 145%;
+    color: #fff;
+    border-radius: 8px;
+    padding: 8px 30px 12px;
+    width: 159px;
+    height: 46px;
+    background: #272a33;
+}

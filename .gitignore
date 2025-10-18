@@ -1,0 +1,25 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build
+dist/
+build/
+.next/
+_out/
+_build/
+
+# Env
+.env
+.env.local
+
+# Local files
+/public/data.json
+.DS_Store
+
+# IDE / OS
+.vscode/
+.idea/

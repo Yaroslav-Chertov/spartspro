@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+.root {
+    --font-family: 'Open Sans', sans-serif;
+    --second-family: 'Roboto', sans-serif;
+    --third-family: 'Oswald', sans-serif;
+    --font3: 'Inter', sans-serif;
+    background-color: #fff;
+    width: 100%;
+    min-width: 320px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+}
