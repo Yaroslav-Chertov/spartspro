@@ -1,0 +1,28 @@
+.button {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 145%;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    width: 159px;
+    height: 46px;
+    background-color: #272a33;
+    transition: background-color 0.3s ease, transform 0.12s ease;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #ee753e;
+}
+
+.button:disabled {
+    opacity: 0.2;
+    background-color: #272a33;
+    cursor: not-allowed;
+    pointer-events: none;
+}
