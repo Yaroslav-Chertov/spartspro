@@ -84,3 +84,14 @@
         padding: 0 203px 0 30px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .equipment__title {
+        font-size: 20px;
+        line-height: 120%;
+    }
+
+    .equipment__info {
+        padding: 0 11px 0 30px;
+    }
+}

@@ -131,3 +131,14 @@
         justify-self: center;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .about__title {
+        font-size: 20px;
+        line-height: 120%;
+    }
+
+    .about__images {
+        gap: 24px;
+    }
+}
