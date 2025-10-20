@@ -79,4 +79,8 @@
     .equipment__cards {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .equipment__info {
+        padding: 0 203px 0 30px;
+    }
 }
