@@ -11,6 +11,7 @@
 .about__content {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
     gap: 30px;
     margin: 30px 0 51px 0;
 }
@@ -57,9 +58,43 @@
     line-height: 150%;
     color: #272a33;
     padding: 0;
-    margin: 0 auto;
+    margin: 20px 0 20px 0;
+}
+
+.about__item {
+    display: flex;
+    align-items: center;
 }
 
 .about__icon {
     margin-right: 15px;
+}
+
+.about__text--last {
+    margin: 0 0 30px 0;
+    font-family: var(--font-family);
+    line-height: 150%;
+    color: #272a33;
+}
+
+@media screen and (max-width: 1440px) {
+    .about {
+        margin-top: 80px;
+    }
+
+    .about__images {
+        gap: 24px;
+        grid-template-columns: 270px 270px;
+    }
+
+    .about__image {
+        width: 100%;
+    }
+
+    .about__image--large {
+        width: 100%;
+        grid-column: 1 / -1;
+        max-width: 565px;
+        justify-self: center;
+    }
 }

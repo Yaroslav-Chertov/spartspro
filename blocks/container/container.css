@@ -4,3 +4,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+@media screen and (max-width: 1440px) {
+    .container {
+        max-width: 1160px;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 576px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        max-width: 360px;
+    }
+}
