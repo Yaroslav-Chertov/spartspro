@@ -142,3 +142,13 @@
         gap: 24px;
     }
 }
+
+@media screen and (max-width: 576px) {
+    .about__content {
+        margin-top: 20px;
+    }
+
+    .about__text--last {
+        margin: 0 0 20px 0;
+    }
+}
