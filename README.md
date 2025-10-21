@@ -13,14 +13,14 @@
 Функционал и технологии:
 
 -   Адаптивный верстка для экранов популярных разрешений;
--   Расширинный функционал Html и CSS (Grid Layout, Flexbox).
+-   Расширинный функционал Html и CSS (Grid Layout, Flexbox);
 -   БЭМ методология, файловая структура (Nested);
 -   Vanilla JS.
 
 ## Инструкция по установке:
 
 ```
-git clone https://github.com/Yaroslav-Chertov/russian-travel.git
+git clone https://github.com/Yaroslav-Chertov/spartspro.git
 ```
 
 Затем запустить локальный сервер.
